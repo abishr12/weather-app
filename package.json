@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "lite-server",
+    "start": "npm run start",
+    "pull": "lite-server",
     "dev": "webpack --config webpack.dev.js",
     "watch": "webpack --watch --config webpack.dev.js",
     "prod": "webpack -p --config webpack.prod.js"
